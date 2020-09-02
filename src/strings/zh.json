@@ -35,7 +35,7 @@
       "components": {
         "buttons": {
           "next": "下一个",
-          "back": "背部"
+          "back": "后退"
         },
         "selects": {
           "predictionDefs": {
@@ -46,8 +46,8 @@
     },
     "mapFields": {
       "messages": {
-        "header": "爱因斯坦-地图领域",
-        "explanation": "您将需要将爱因斯坦模型中的参数映射到下面的仪表板中可用的Tableau参数。如果您不想使用爱因斯坦的参数，只需选择NULL，它将被排除。确保为希望用户能够修改的任何输入构建参数控件。"
+        "header": "爱因斯坦-字段映射",
+        "explanation": "您将需要将爱因斯坦模型中的参数映射到下面的仪表板中可用的Tableau参数。如果您不想使用爱因斯坦的参数，只需选择NULL，它将被排除。确保为用户希望能够修改的任何输入条件构建参数控件。"
       },
       "components": {
         "tables": {
@@ -60,7 +60,7 @@
         },
         "buttons": {
           "next": "下一个",
-          "back": "背部"
+          "back": "后退"
         }
       }
     },
@@ -72,12 +72,12 @@
         "labels": {
           "salesforceInstance": "Salesforce实例",
           "predictionDefinition": "预测定义",
-          "fieldMapping": "场图",
+          "fieldMapping": "字段映射",
           "einsteinParam": "爱因斯坦模型参数",
           "tableauParam": "参数表"
         },
         "buttons": {
-          "back": "背部",
+          "back": "后退",
           "done": "完成"
         }
       }
@@ -96,7 +96,7 @@
           "settingsConfig": {
             "label": "选择要配置的设置：",
             "options": {
-              "global": "全球",
+              "global": "全局",
               "predict": "预测",
               "explain": "说明",
               "action": "行动"
@@ -119,7 +119,7 @@
             "label": "文字颜色"
           },
           "accentColor": {
-            "label": "口音颜色"
+            "label": "重点颜色"
           }
         }
       }
@@ -135,7 +135,7 @@
             "label": "字体大小"
           },
           "prefix": {
-            "label": "字首"
+            "label": "前缀"
           },
           "suffix": {
             "label": "后缀"
@@ -188,13 +188,13 @@
             "label": "主要文字格式"
           },
           "primaryNumberFormatting": {
-            "label": "主号码格式"
+            "label": "主要数字格式"
           },
           "secondaryTextFormatting": {
-            "label": "次要文字格式"
+            "label": "辅助文字格式"
           },
           "secondaryNumberFormatting": {
-            "label": "辅助号码格式"
+            "label": "辅助数字格式"
           }
         }
       }
@@ -206,7 +206,7 @@
         "tables": {
           "explainResults": {
             "headers": {
-              "value": "值",
+              "value": "数值",
               "explanation": "说明"
             }
           }
@@ -219,7 +219,7 @@
           "primaryText": {
             "decrease": "减少",
             "increase": "增加",
-            "noChange": "没变"
+            "noChange": "不变"
           }
         }
       }
